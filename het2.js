@@ -3,7 +3,7 @@ import React from 'react'
 const het2 = () => {
     return (
         <div>
-            <RadioButton
+            <RaButton
                 dataList={[
                     {
                         label: "Excellent",
@@ -23,8 +23,8 @@ const het2 = () => {
                     }
                 ]}
                 fieldName={'Overall Event Rating'}
-                name={'eventRating'}
-                formik={formik}
+                name={'rating'}
+                formik={formikdata}
             />
         </div>
     )
