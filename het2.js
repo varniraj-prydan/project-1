@@ -2,7 +2,7 @@ import React from 'react'
 
 const het2 = () => {
     return (
-        <div>Het Component</div>
+        <div>Ritik Component</div>
     )
 }
 
